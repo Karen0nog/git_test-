@@ -13,8 +13,8 @@ body {
     display: grid;
     grid-template-areas: 
     ". . . . ."
-    ". hero . form ."
-    ". hero . form ."
+    ". picture . form ."
+    ". picture . form ."
     ". . . . .";
 
     gap: 8.5rem;
@@ -23,7 +23,7 @@ main {
     grid-area: form;
 }
 aside {
-    grid-area: hero;
+    grid-area: picture;
 }
 :root {
     font-size: 62.5%;
